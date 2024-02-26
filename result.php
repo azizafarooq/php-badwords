@@ -1,6 +1,6 @@
 <?php 
-$paragraph = $_GET['paragrafo'];
-$censored_word = $_GET['parola-da-censurare'];
+$paragraph = $_POST['paragrafo'];
+$censored_word = $_POST['parola-da-censurare'];
 
 $paragraph_length = strlen($paragraph);
 
